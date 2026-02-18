@@ -1,0 +1,24 @@
+# SensorFlow - Dashboard Reactivo
+## Temas Cubiertos
+1.1 **Definición de Programación Reactiva**:
+- Uso de `useState` y `useEffect` para manejar flujos de datos.
+- La UI es una función del estado: `UI = f(state)`.
+1.2 **Evolución**:
+- Antes: Manipulación manual del DOM con jQuery (`$('#id').html(...)`).
+- Ahora: Declarativo con React. El estado cambia → UI se actualiza sola.
+1.3 **Web y Móvil**:
+- Responsive con CSS Grid y Media Queries.
+- Lógica reusable para React Native (mismos hooks, diferentes componentes).
+1.4 **Frameworks/APIs**:
+- Frontend: React + Vite (rápido, moderno).
+- Backend: Express.js (API REST minimalista).
+- Comunicación: Fetch API + JSON.
+## Cómo Ejecutar
+```bash
+# Terminal 1: Backend
+cd server
+npm run dev
+# Terminal 2: Frontend
+cd client
+npm run dev
+# Abrir: http://localhost:5173
